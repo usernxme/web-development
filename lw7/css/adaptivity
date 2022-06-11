@@ -1,0 +1,396 @@
+/* Adaptivity */
+
+@media screen and (min-width: 320px)
+{
+    header
+    {
+        flex-direction: column;
+        align-items: center;
+        margin: 50px 0;
+    }
+
+    .header__logo 
+    {
+        width: 40%;
+        margin-bottom: 30px;
+    }
+
+    .header__nav-bar 
+    {
+        flex-direction: column;
+        width: 90%;
+        align-items: center;
+    }
+
+    .header__links 
+    {
+        font-size: 13px;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .button-register 
+    {
+        font-size: 13px;
+        line-height: 40px;
+    }
+
+    .top
+    {
+        flex-direction: column;
+        align-items: center;
+        width: 90%; 
+        margin-bottom: 50px;
+    }
+
+    .top__info 
+    {
+        padding-top: 0px;
+        margin-right: 0px;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .top__title 
+    {
+        margin-top: 0px;
+        margin-bottom: 20px;
+        font-size: 40px;
+    }
+    .top__text
+    {
+        font-size: 15px;
+        margin-bottom: 23px;
+        text-align: center;
+    }
+
+    .top__image
+    {
+        width: 100%;
+    }
+
+    .short-descritpion__content 
+    {
+        margin-top: 50px;
+        margin-bottom: 20px;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .short-description_text 
+    {
+        font-size: 15px;
+    }
+    
+    .short-description__tile 
+    {
+        width: 90%;
+        margin-bottom: 30px;
+    }
+
+    .short-description__image 
+    {
+        width: 16%;
+    }
+
+    .short-description 
+    {
+        margin-bottom: 70px;
+    }
+
+    .blog__creation 
+    {
+        flex-direction: column;
+        align-items: center;
+        width: 90%;
+        margin-bottom: 40px;
+    }
+
+    .blog__finances_image 
+    {
+        margin-right: 0px;
+        width: 85%;
+    }
+
+    .finances_content 
+    {
+        margin-top: 10px;
+        width: 90%;
+    }
+
+    .blog__title 
+    {
+        font-size: 24px;
+        text-align: center;
+    }
+
+    .blog__text 
+    {
+        margin-top: 10px;
+        font-size: 15px;
+        text-align: center;
+    }
+
+   .blog__deadline 
+   {
+        flex-direction: column-reverse;
+        align-items: center;
+        width: 90%;
+        margin-bottom: 40px;
+   }
+
+    .blog__blowing_image 
+    {
+         width: 70%;
+    }
+
+    .deadline_content 
+    {
+        margin-top: 10px;
+        margin-right: 0px;
+        width: 90%;
+    }
+
+    .blog 
+    {
+        margin-bottom: 0px;
+    }
+    
+    .about-course__title 
+    {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+
+    .about-course-tiles 
+    {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-course-box 
+    {
+        margin-bottom: 20px;
+        margin-right: 0px;
+        width: 90%;
+    }
+
+    .about-course__text 
+    {
+        font-size: 15px;
+        width: 85%;
+    }
+
+    main 
+    {
+        margin-bottom: 200px;
+    }
+
+    .footer__image
+    {
+        width: 35%;
+        padding: 15px 0;
+    }
+}
+
+@media screen and (min-width: 768px)
+{
+    .header__links 
+    {
+        font-size: 16px;
+        width: 80%;
+    }
+
+    .button-register 
+    {
+        font-size: 16px;
+        line-height: 55px;
+    }
+
+    .top__image 
+    {
+        width: 80%;
+    }
+
+    .top__title 
+    {
+        font-size: 70px;
+    }
+
+    .top__text 
+    {
+        font-size: 18px;
+    }
+
+    .short-description__image 
+    {
+        max-width: 60px;
+    }
+
+    .short-description_text 
+    {
+        font-size: 18px;
+    }
+
+    .blog__title 
+    {
+        font-size: 35px;
+    }
+
+    .finances_content 
+    {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .blog__text 
+    {
+        font-size: 18px;
+    }
+
+    .deadline_content 
+    {
+        width: 80%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .about-course__title 
+    {
+        font-size: 35px;
+    }
+
+    .about-course__text 
+    {
+        font-size: 18px;
+    }
+
+    .about-course 
+    {
+        max-width: 722px;
+    }
+
+    .about-course-tiles 
+    {
+        flex-direction: row;
+    }
+
+    .about-course-box 
+    {
+        margin-bottom: 6px;
+    }
+
+}
+
+@media screen and (min-width: 1024px)
+{
+    .header__nav-bar 
+    {
+        flex-direction: row;
+    }
+
+    .header__links 
+    {
+        max-width: 469px;
+        margin-bottom: 0px;
+    }
+
+    .top 
+    {
+        flex-direction: row;
+    }
+
+    .top__image 
+    {
+        width: 60%;
+    }
+
+    .top__info 
+    {
+        align-items: start;
+    }
+
+    .top__title 
+    {
+        font-size: 52px;
+    }
+
+    .top__text 
+    {
+        text-align: start;
+    }
+
+    .short-descritpion__content 
+    {
+        flex-direction: row;
+        max-width: 925px;
+    }
+
+    .blog__creation 
+    {
+        flex-direction: row;
+    }
+
+    .blog__title 
+    {
+        text-align: start;
+    }
+
+    .blog__text 
+    {
+        text-align: start;
+    }
+
+    .blog__finances_image 
+    {
+        margin-right: 30px;
+    }
+
+    .blog__deadline 
+    {
+        flex-direction: row;
+        max-width: 925px;
+    }
+
+    .finances_content 
+    {
+        align-items: start;
+    }
+
+    .deadline_content 
+    {
+        width: 50%;
+        align-items: start;
+    }
+
+    .about-course 
+    {
+        max-width: 747px;
+    }
+
+    .about-course-box 
+    {
+        margin-bottom: 30px;
+    }
+}
+
+@media screen and (min-width: 1366px)
+{
+    .page-header
+    {
+
+    }
+}
+
+@media screen and (min-width: 1600px)
+{
+    header
+    {
+        width: 100%;
+    }
+}
